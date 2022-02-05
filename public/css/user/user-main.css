@@ -1,0 +1,26 @@
+.bd-placeholder-img {
+    width: 250px;
+    height: 250px;
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius:25px;
+}
+
+input {
+    color: #000000;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-device-width: 767px) {
+    .bd-placeholder-img {
+        width: 150px;
+        height: 150px;
+    }
+}

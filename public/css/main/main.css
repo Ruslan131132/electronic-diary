@@ -1,0 +1,120 @@
+.container {
+    max-width: 960px;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+.navbar a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    display: none;
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="number"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    -moz-appearance: textfield;
+}
+
+.form-signin input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: .75rem;
+}
+
+.feature-icon > .bi {
+    width: 50%;
+    height: 50%;
+}
+
+.icon-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon-link > .bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    transition: transform .25s ease-in-out;
+    fill: currentColor;
+}
+.icon-link:hover > .bi {
+    transform: translate(.25rem);
+}
+
+#prizeContainer{
+    max-height: 50vh;
+}
+
+@media screen and (max-device-width: 767px) {
+    .navbar-brand{
+        display: block;
+    }
+    ul.navbar-nav img {
+        display: none;
+    }
+    ul.navbar-nav li{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .feature > p {
+        min-height: 130px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .feature > p {
+        min-height: 100px;
+    }
+}

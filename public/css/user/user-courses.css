@@ -1,0 +1,32 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 25px 0 0 25px;
+}
+a.register-status{
+    min-width: 145px;
+}
+@media (min-width: 992px) {
+    p.description {
+        min-height: 170px;
+    }
+    div.course-bottom{
+        min-height: 70px;
+    }
+    p.course-teacher{
+        min-height: 75px;
+    }
+}
+
+@media (min-width: 1200px) {
+    p.description {
+        min-height: 110px;
+    }
+    p.course-teacher, div.course-bottom{
+        min-height: auto;
+    }
+}

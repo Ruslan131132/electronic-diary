@@ -1,0 +1,24 @@
+table{
+    min-width: 1000px;
+}
+
+select.marks{
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    text-align-last: center;
+    outline:none;
+    color: black;
+    border-color: grey;
+    background: white;
+}
+#subjects{
+    outline:none;
+}
+
+form.form-marks {
+    display: inherit;
+    padding: 2px;
+}
